@@ -84,7 +84,7 @@ A Node.js backend service that powers a Retrieval-Augmented Generation (RAG) new
 6. **Session Storage**: Query and response are stored in Redis
 7. **Response**: Generated answer is returned to frontend
 
-## 🗄️ Data Ingestion
+## Data Ingestion
 
 ### Running the Ingestion Script
 
@@ -105,7 +105,7 @@ This script:
 - CNN Top Stories RSS feed
 - Easily extensible to other RSS sources
 
-## 🔧 Services Overview
+## Services Overview
 
 ### Gemini Service (`services/gemini.js`)
 
