@@ -2,7 +2,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const chatRoutes = require("./api/chat");
+const chatRoutes = require("./src/api/chat");
 
 const app = express();
 const port = process.env.PORT || 3001;
